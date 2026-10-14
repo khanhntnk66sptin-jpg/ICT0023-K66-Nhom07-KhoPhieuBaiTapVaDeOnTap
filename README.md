@@ -4,7 +4,7 @@ Họ tên thành viên:
 
 Nguyễn Thị Ngọc Khánh
 
-Github: 
+Github: khanhntnk66sptin-jpg
 
 Vai trò: Nhóm trưởng - Coordinator
 
@@ -20,7 +20,7 @@ Nhiệm vụ: đưa ra ý tưởng, định hướng quá trình thực hiện w
 
 Lương Hoàng Anh
 
-Github: 
+Github: anhlhk66sptin-svg
 
 Vai trò: Tester
 
