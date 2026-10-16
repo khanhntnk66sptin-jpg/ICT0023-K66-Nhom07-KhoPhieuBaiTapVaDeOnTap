@@ -1,4 +1,4 @@
-/* EduKho bilingual UI: Vietnamese / English. Loads after main.js. */
+
 (function () {
   "use strict";
   const pairs = [
