@@ -1,0 +1,24 @@
+/* Dữ liệu câu hỏi mẫu. Có thể thêm câu hỏi mới vào mảng questionBank. */
+const questionBank = [
+{id:1,subject:"Tin học",grade:"10",topic:"Thông tin và dữ liệu",level:"Nhận biết",question:"Đơn vị nhỏ nhất dùng để biểu diễn thông tin trong máy tính là gì?",options:["Byte","Bit","Kilobyte","Megabyte"],answer:1},
+{id:2,subject:"Tin học",grade:"10",topic:"Thông tin và dữ liệu",level:"Nhận biết",question:"Một byte thường gồm bao nhiêu bit?",options:["2 bit","4 bit","8 bit","16 bit"],answer:2},
+{id:3,subject:"Tin học",grade:"10",topic:"Mạng máy tính",level:"Thông hiểu",question:"Internet là gì?",options:["Phần mềm soạn thảo","Mạng kết nối các mạng máy tính trên phạm vi toàn cầu","Thiết bị lưu trữ","Hệ điều hành"],answer:1},
+{id:4,subject:"Tin học",grade:"10",topic:"An toàn số",level:"Vận dụng",question:"Khi nhận được liên kết lạ yêu cầu nhập mật khẩu, em nên làm gì?",options:["Nhập ngay","Chuyển cho bạn bè","Không mở và kiểm tra nguồn gửi","Tắt phần mềm bảo vệ"],answer:2},
+{id:5,subject:"Tin học",grade:"11",topic:"Lập trình cơ bản",level:"Nhận biết",question:"Trong JavaScript, từ khóa nào thường dùng khai báo biến có thể gán lại?",options:["let","style","href","print"],answer:0},
+{id:6,subject:"Tin học",grade:"11",topic:"Lập trình cơ bản",level:"Thông hiểu",question:"Cấu trúc if...else dùng để làm gì?",options:["Lặp vô hạn","Rẽ nhánh theo điều kiện","Tạo hình ảnh","Khai báo CSS"],answer:1},
+{id:7,subject:"Tin học",grade:"11",topic:"Bảng tính",level:"Nhận biết",question:"Trong bảng tính, công thức thường bắt đầu bằng ký hiệu nào?",options:["#","=","&","@"],answer:1},
+{id:8,subject:"Tin học",grade:"12",topic:"Mạng máy tính",level:"Thông hiểu",question:"HTTPS giúp ích điều gì khi truy cập website?",options:["Tăng kích thước màn hình","Mã hóa kết nối trình duyệt và website","Tự sửa mọi lỗi","Tăng dung lượng ổ cứng"],answer:1},
+{id:9,subject:"Tin học",grade:"12",topic:"Cơ sở dữ liệu",level:"Nhận biết",question:"Cơ sở dữ liệu được tổ chức nhằm mục đích chính nào?",options:["Lưu trữ và quản lí dữ liệu có tổ chức","Trang trí màn hình","Thay bộ xử lí","Tăng độ sáng"],answer:0},
+{id:10,subject:"Toán học",grade:"10",topic:"Hàm số",level:"Nhận biết",question:"Đồ thị hàm số bậc nhất y = ax + b (a khác 0) là hình gì?",options:["Đường tròn","Đường thẳng","Parabol","Elip"],answer:1},
+{id:11,subject:"Toán học",grade:"10",topic:"Hình học",level:"Nhận biết",question:"Tổng ba góc trong một tam giác bằng bao nhiêu độ?",options:["90°","180°","270°","360°"],answer:1},
+{id:12,subject:"Toán học",grade:"11",topic:"Lượng giác",level:"Nhận biết",question:"Giá trị sin(90°) bằng bao nhiêu?",options:["0","1","-1","Không xác định"],answer:1},
+{id:13,subject:"Toán học",grade:"11",topic:"Dãy số",level:"Thông hiểu",question:"Trong cấp số cộng, hiệu giữa hai số hạng liên tiếp gọi là gì?",options:["Công bội","Công sai","Tỉ số","Trung vị"],answer:1},
+{id:14,subject:"Toán học",grade:"12",topic:"Đạo hàm",level:"Nhận biết",question:"Đạo hàm của hàm số y = x² là gì?",options:["x","2x","x²","2"],answer:1},
+{id:15,subject:"Toán học",grade:"12",topic:"Xác suất",level:"Thông hiểu",question:"Xác suất của một biến cố chắc chắn bằng bao nhiêu?",options:["0","0,5","1","Không xác định"],answer:2},
+{id:16,subject:"Ngữ văn",grade:"10",topic:"Đọc hiểu",level:"Thông hiểu",question:"Xác định chủ đề giúp người đọc làm gì?",options:["Bỏ qua nội dung","Nắm vấn đề chính văn bản đề cập","Đếm số câu","Tìm từ dài nhất"],answer:1},
+{id:17,subject:"Ngữ văn",grade:"11",topic:"Nghị luận",level:"Nhận biết",question:"Bài văn nghị luận thường cần yếu tố nào để làm sáng tỏ luận điểm?",options:["Luận cứ và lập luận","Chỉ tiêu đề","Câu không liên quan","Chỉ lời thoại"],answer:0},
+{id:18,subject:"Ngữ văn",grade:"12",topic:"Nghị luận xã hội",level:"Vận dụng",question:"Dẫn chứng trong bài nghị luận cần có đặc điểm nào?",options:["Càng dài càng tốt","Phù hợp, xác thực và gắn với luận điểm","Không cần giải thích","Không liên quan"],answer:1},
+{id:19,subject:"Tiếng Anh",grade:"10",topic:"Grammar",level:"Nhận biết",question:"Choose the correct form: She ___ to school every day.",options:["go","goes","going","gone"],answer:1},
+{id:20,subject:"Tiếng Anh",grade:"11",topic:"Vocabulary",level:"Thông hiểu",question:"Which word is closest in meaning to 'important'?",options:["Tiny","Significant","Late","Empty"],answer:1},
+{id:21,subject:"Tiếng Anh",grade:"12",topic:"Grammar",level:"Nhận biết",question:"Choose the correct passive form: They built the bridge in 2020.",options:["The bridge built in 2020.","The bridge was built in 2020.","The bridge is build in 2020.","The bridge has build in 2020."],answer:1}
+];
