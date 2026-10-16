@@ -119,9 +119,32 @@ const questionBank = [
   options:["0","1","-1","Không xác định"],
   answer:1
 },
-{id:13,subject:"Toán học",grade:"11",topic:"Dãy số",level:"Thông hiểu",question:"Trong cấp số cộng, hiệu giữa hai số hạng liên tiếp gọi là gì?",options:["Công bội","Công sai","Tỉ số","Trung vị"],answer:1},
-{id:14,subject:"Toán học",grade:"12",topic:"Đạo hàm",level:"Nhận biết",question:"Đạo hàm của hàm số y = x² là gì?",options:["x","2x","x²","2"],answer:1},
-{id:15,subject:"Toán học",grade:"12",topic:"Xác suất",level:"Thông hiểu",question:"Xác suất của một biến cố chắc chắn bằng bao nhiêu?",options:["0","0,5","1","Không xác định"],answer:2},
+{
+  id:13,
+  subject:"Toán học",
+  grade:"11",
+  topic:"Dãy số",
+  level:"Thông hiểu",
+  question:"Trong cấp số cộng, hiệu giữa hai số hạng liên tiếp gọi là gì?",
+  options:["Công bội","Công sai","Tỉ số","Trung vị"],
+  answer:1
+},
+{
+  id:14,
+  subject:"Toán học",
+  grade:"12",
+  topic:"Đạo hàm",
+  level:"Nhận biết",
+  question:"Đạo hàm của hàm số y = x² là gì?",
+  options:["x","2x","x²","2"],
+  answer:1
+},
+{
+  id:15,
+  subject:"Toán học",
+  grade:"12",
+  topic:"Xác suất",
+  level:"Thông hiểu",question:"Xác suất của một biến cố chắc chắn bằng bao nhiêu?",options:["0","0,5","1","Không xác định"],answer:2},
 {id:16,subject:"Ngữ văn",grade:"10",topic:"Đọc hiểu",level:"Thông hiểu",question:"Xác định chủ đề giúp người đọc làm gì?",options:["Bỏ qua nội dung","Nắm vấn đề chính văn bản đề cập","Đếm số câu","Tìm từ dài nhất"],answer:1},
 {id:17,subject:"Ngữ văn",grade:"11",topic:"Nghị luận",level:"Nhận biết",question:"Bài văn nghị luận thường cần yếu tố nào để làm sáng tỏ luận điểm?",options:["Luận cứ và lập luận","Chỉ tiêu đề","Câu không liên quan","Chỉ lời thoại"],answer:0},
 {id:18,subject:"Ngữ văn",grade:"12",topic:"Nghị luận xã hội",level:"Vận dụng",question:"Dẫn chứng trong bài nghị luận cần có đặc điểm nào?",options:["Càng dài càng tốt","Phù hợp, xác thực và gắn với luận điểm","Không cần giải thích","Không liên quan"],answer:1},
