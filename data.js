@@ -169,8 +169,25 @@ const questionBank = [
   options:["Luận cứ và lập luận","Chỉ tiêu đề","Câu không liên quan","Chỉ lời thoại"],
   answer:0
 },
-{id:18,subject:"Ngữ văn",grade:"12",topic:"Nghị luận xã hội",level:"Vận dụng",question:"Dẫn chứng trong bài nghị luận cần có đặc điểm nào?",options:["Càng dài càng tốt","Phù hợp, xác thực và gắn với luận điểm","Không cần giải thích","Không liên quan"],answer:1},
-{id:19,subject:"Tiếng Anh",grade:"10",topic:"Grammar",level:"Nhận biết",question:"Choose the correct form: She ___ to school every day.",options:["go","goes","going","gone"],answer:1},
+{
+  id:18,
+  subject:"Ngữ văn",
+  grade:"12",
+  topic:"Nghị luận xã hội",
+  level:"Vận dụng",
+  question:"Dẫn chứng trong bài nghị luận cần có đặc điểm nào?",
+  options:["Càng dài càng tốt","Phù hợp, xác thực và gắn với luận điểm","Không cần giải thích","Không liên quan"],
+  answer:1
+},
+{
+  id:19,
+  subject:"Tiếng Anh",
+  grade:"10",
+  topic:"Grammar",
+  level:"Nhận biết",
+  question:"Choose the correct form: She ___ to school every day.",
+  options:["go","goes","going","gone"],
+  answer:1},
 {id:20,subject:"Tiếng Anh",grade:"11",topic:"Vocabulary",level:"Thông hiểu",question:"Which word is closest in meaning to 'important'?",options:["Tiny","Significant","Late","Empty"],answer:1},
 {id:21,subject:"Tiếng Anh",grade:"12",topic:"Grammar",level:"Nhận biết",question:"Choose the correct passive form: They built the bridge in 2020.",options:["The bridge built in 2020.","The bridge was built in 2020.","The bridge is build in 2020.","The bridge has build in 2020."],answer:1}
 ];
