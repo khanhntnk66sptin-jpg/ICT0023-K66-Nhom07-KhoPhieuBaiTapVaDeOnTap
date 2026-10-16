@@ -1,4 +1,4 @@
-/* Dữ liệu câu hỏi mẫu. Có thể thêm câu hỏi mới vào mảng questionBank. */
+
 const questionBank = [
 {id:1,subject:"Tin học",grade:"10",topic:"Thông tin và dữ liệu",level:"Nhận biết",question:"Đơn vị nhỏ nhất dùng để biểu diễn thông tin trong máy tính là gì?",options:["Byte","Bit","Kilobyte","Megabyte"],answer:1},
 {id:2,subject:"Tin học",grade:"10",topic:"Thông tin và dữ liệu",level:"Nhận biết",question:"Một byte thường gồm bao nhiêu bit?",options:["2 bit","4 bit","8 bit","16 bit"],answer:2},
