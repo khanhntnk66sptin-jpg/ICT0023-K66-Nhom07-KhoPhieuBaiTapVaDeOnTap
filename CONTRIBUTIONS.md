@@ -10,7 +10,7 @@ Vai trò: Nhóm trưởng - Coordinator
 
 Nhiệm vụ: phân công công việc, tạo Issue, theo dõi tiến độ và phối hợp các thành viên
 
-Đóng góp thực tế: quản lý công việc trên GitHub, tổng hợp và rà soát sản phẩm cuối cùng, đưa ra thêm một số ý tưởng về giao diện phối hợp với các thành viên để cùng làm web
+Đóng góp thực tế: quản lý công việc trên GitHub, tổng hợp và rà soát sản phẩm cuối cùng, đưa ra thêm một số ý tưởng về giao diện phối hợp với các thành viên để cùng làm web, làm slide phần báo cáo
 
 Cư Thị Hồ
 
@@ -20,7 +20,7 @@ Vai trò: Navigator
 
 Nhiệm vụ: đưa ra ý tưởng, định hướng quá trình thực hiện website
 
-Đóng góp thực tế: đề xuất quy trình sử dụng website: tìm kiếm câu hỏi, lọc bài tập, tạo phiếu bài tập và xem đáp án
+Đóng góp thực tế: đề xuất quy trình sử dụng website: tìm kiếm câu hỏi, lọc bài tập, tạo phiếu bài tập và xem đáp án, làm bản báo cáo file word, pdf
 
 làm phần css cho trang web
 
