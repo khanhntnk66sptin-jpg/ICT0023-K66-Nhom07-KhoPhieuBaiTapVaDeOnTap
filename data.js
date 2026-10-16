@@ -188,6 +188,24 @@ const questionBank = [
   question:"Choose the correct form: She ___ to school every day.",
   options:["go","goes","going","gone"],
   answer:1},
-{id:20,subject:"Tiếng Anh",grade:"11",topic:"Vocabulary",level:"Thông hiểu",question:"Which word is closest in meaning to 'important'?",options:["Tiny","Significant","Late","Empty"],answer:1},
-{id:21,subject:"Tiếng Anh",grade:"12",topic:"Grammar",level:"Nhận biết",question:"Choose the correct passive form: They built the bridge in 2020.",options:["The bridge built in 2020.","The bridge was built in 2020.","The bridge is build in 2020.","The bridge has build in 2020."],answer:1}
+{
+  id:20,
+  subject:"Tiếng Anh",
+  grade:"11",
+  topic:"Vocabulary",
+  level:"Thông hiểu",
+  question:"Which word is closest in meaning to 'important'?",
+  options:["Tiny","Significant","Late","Empty"],
+  answer:1
+},
+{
+  id:21,
+  subject:"Tiếng Anh",
+  grade:"12",
+  topic:"Grammar",
+  level:"Nhận biết",
+  question:"Choose the correct passive form: They built the bridge in 2020.",
+  options:["The bridge built in 2020.","The bridge was built in 2020.","The bridge is build in 2020.","The bridge has build in 2020."],
+  answer:1
+}
 ];
