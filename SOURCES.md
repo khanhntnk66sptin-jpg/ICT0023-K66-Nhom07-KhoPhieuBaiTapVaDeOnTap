@@ -15,3 +15,19 @@ Tài Liệu Ôn Thi: https://tailieuonthi.edu.vn/ - Tham khảo cách cung cấp
 HOCMAI: https://hocmai.vn/khoa-hoc-truc-tuyen/358/kho-tai-lieu-hoc-tap.html - Cách tổ chức kho tài liệu học tập
 
 Toán Cấp 3: https://toancap3.com/category/de-thi/ - Tham khảo cách phân loại đề thi theo nội dung học tập
+
+2. Mã tham khảo:
+
+ChatGPT
+
+URL: https://chatgpt.com/
+
+Tác giả: OpenAI
+
+Ngày truy cập: 16/10/2026
+
+Phần tham khảo: Gợi ý cấu trúc HTML, CSS, JavaScript, Bootstrap; bố cục giao diện; cách triển khai chức năng tìm kiếm, lọc tài liệu và xử lý biểu mẫu.
+
+Cách chỉnh sửa: Chọn lọc và điều chỉnh các gợi ý cho phù hợp với cấu trúc thư mục, dữ liệu, màu sắc và yêu cầu chức năng của dự án. Mã được tích hợp, chỉnh sửa và hoàn thiện trong mã nguồn của nhóm.
+
+Cách kiểm thử: Chạy website trên trình duyệt; kiểm tra hiển thị giao diện, chức năng tìm kiếm và lọc, thao tác biểu mẫu, dữ liệu đầu vào và các liên kết. Chỉ ghi nhận những chức năng đã thực sự kiểm thử.
