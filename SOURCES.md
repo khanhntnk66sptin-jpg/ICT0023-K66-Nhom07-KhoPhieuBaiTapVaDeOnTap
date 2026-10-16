@@ -60,8 +60,38 @@ Cách sử dụng: Tham khảo định hướng thiết kế và điều chỉnh
 
 3.3. Dữ liệu học tập
 
-Nguồn: Các website được liệt kê tại mục 1.
+Nguồn: Các website đã liệt kê tại mục 1
 
-Phần sử dụng: Ý tưởng phân loại tài liệu theo môn học, lớp học và chủ đề.
+Phần sử dụng: Ý tưởng phân loại tài liệu theo môn học, lớp học và chủ đề
 
-Cách xử lý: Nội dung, dữ liệu và chức năng được chọn lọc theo phạm vi dự án. Không sử dụng dữ liệu của các website trên nếu chưa thực sự lấy hoặc tích hợp vào sản phẩm.
+Cách xử lý: Nội dung, dữ liệu và chức năng được chọn lọc theo phạm vi dự án. Không sử dụng dữ liệu của các website trên nếu chưa thực sự lấy hoặc tích hợp vào sản phẩm
+
+4. Công cụ AI
+
+4.1. ChatGPT
+
+URL: https://chatgpt.com/
+
+Tác giả: OpenAI.
+
+Ngày sử dụng: Ghi ngày sử dụng thực tế.
+
+Prompt chính: Hỏi về khái niệm lập trình web, gợi ý chỉnh sửa mã nguồn và xử lý lỗi.
+
+Phần tiếp nhận/loại bỏ: Chọn lọc các giải thích và gợi ý phù hợp; loại bỏ nội dung không phù hợp với yêu cầu dự án.
+
+Cách kiểm chứng: Đối chiếu với kiến thức đã học và chạy thử các phần liên quan trên trình duyệt.
+
+4.2. Gemini
+
+URL: https://gemini.google.com/
+
+Tác giả: Google.
+
+Ngày sử dụng: Ghi ngày sử dụng thực tế.
+
+Prompt chính: 
+
+Phần tiếp nhận/loại bỏ: Tiếp nhận các gợi ý phù hợp với dự án; loại bỏ những nội dung không cần thiết hoặc chưa phù hợp.
+
+Cách kiểm chứng: Đối chiếu câu trả lời với yêu cầu dự án và kiểm tra lại nội dung được áp dụng.
