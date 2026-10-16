@@ -1,6 +1,14 @@
-
 const questionBank = [
-{id:1,subject:"Tin học",grade:"10",topic:"Thông tin và dữ liệu",level:"Nhận biết",question:"Đơn vị nhỏ nhất dùng để biểu diễn thông tin trong máy tính là gì?",options:["Byte","Bit","Kilobyte","Megabyte"],answer:1},
+{
+  id:1,
+  subject:"Tin học",
+  grade:"10",
+  topic:"Thông tin và dữ liệu",
+  level:"Nhận biết",
+  question:"Đơn vị nhỏ nhất dùng để biểu diễn thông tin trong máy tính là gì?",
+  options:["Byte","Bit","Kilobyte","Megabyte"],
+  answer:1
+},
 {id:2,subject:"Tin học",grade:"10",topic:"Thông tin và dữ liệu",level:"Nhận biết",question:"Một byte thường gồm bao nhiêu bit?",options:["2 bit","4 bit","8 bit","16 bit"],answer:2},
 {id:3,subject:"Tin học",grade:"10",topic:"Mạng máy tính",level:"Thông hiểu",question:"Internet là gì?",options:["Phần mềm soạn thảo","Mạng kết nối các mạng máy tính trên phạm vi toàn cầu","Thiết bị lưu trữ","Hệ điều hành"],answer:1},
 {id:4,subject:"Tin học",grade:"10",topic:"An toàn số",level:"Vận dụng",question:"Khi nhận được liên kết lạ yêu cầu nhập mật khẩu, em nên làm gì?",options:["Nhập ngay","Chuyển cho bạn bè","Không mở và kiểm tra nguồn gửi","Tắt phần mềm bảo vệ"],answer:2},
