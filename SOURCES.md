@@ -8,8 +8,8 @@ Tài liệu học tập:
 
 Liveworksheets: https://www.liveworksheets.com/
 
-https://azota.vn/
+Azota: https://azota.vn/
 
-https://vndoc.com/s?q=de+thi&utm_source=google-ads&utm_campaign=de-thi&gad_source=1&gad_campaignid=22605883189&gbraid=0AAAAA_okttZbTVCnZ-kR4oNSZEOHlcqtd&gclid=Cj0KCQjwlsfWBhD4ARIsACL7p1FXDPMvN2g9ZzCyTkSo-EMa3YSR0G6DH5QQiNdOQ_fcm-lEIzbHg6gaAsrSEALw_wcB
+Vndoc: https://vndoc.com/s?q=de+thi&utm_source=google-ads&utm_campaign=de-thi&gad_source=1&gad_campaignid=22605883189&gbraid=0AAAAA_okttZbTVCnZ-kR4oNSZEOHlcqtd&gclid=Cj0KCQjwlsfWBhD4ARIsACL7p1FXDPMvN2g9ZzCyTkSo-EMa3YSR0G6DH5QQiNdOQ_fcm-lEIzbHg6gaAsrSEALw_wcB
 
 
