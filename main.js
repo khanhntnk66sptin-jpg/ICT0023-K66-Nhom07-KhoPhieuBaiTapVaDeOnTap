@@ -119,8 +119,6 @@ document.addEventListener("DOMContentLoaded", function () {
         themeSelect.value = theme;
     }
     applyTheme(initialTheme);
-
-    // Lưu lựa chọn và đổi giao diện ngay khi chọn
     themeSelect.addEventListener("change", function () {
         const selectedTheme = themeSelect.value;
 
