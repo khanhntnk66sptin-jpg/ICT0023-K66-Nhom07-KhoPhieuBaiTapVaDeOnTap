@@ -19,80 +19,77 @@
 
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Hướng dẫn | EduSheet</title>
+    <title>Hướng dẫn | EduKho</title>
 </head>
 
 <body>
 
-    <nav class="navbar">
-        <div class="container nav-inner">
+   <header class="site-header">
+        <nav class="navbar">
+            <div class="container nav-inner">
 
-            <a class="brand" href="index.html">
-                <span class="brand-mark">
-                    <i class="bi bi-journal-check"></i>
-                </span>
-                EduSheet
-            </a>
-
-            <button
-                class="menu-toggle"
-                id="menuToggle"
-                aria-label="Mở menu"
-            >
-                <i class="bi bi-list"></i>
-            </button>
-
-            <div class="nav-menu" id="navMenu">
-
-                <a class="nav-link" href="index.html">Trang chủ</a>
-                <a class="nav-link" href="categories.html">Kho bài tập</a>
-                <a class="nav-link" href="generator.html">Tạo phiếu</a>
-                <a class="nav-link" href="faq.html">Hướng dẫn</a>
-                <a class="nav-link" href="contact.html">Liên hệ</a>
-
-                <a class="btn btn-primary nav-cta" href="generator.html">
-                    Bắt đầu ngay
-                    <i class="bi bi-arrow-right"></i>
+                <!-- Logo đã đổi sang Logo-nhom7.png -->
+                <a class="brand" href="index.html">
+                    <img src="images/logo-nhom7.png" alt="EduSheet Logo" class="brand-logo">
+                    EduSheet
                 </a>
 
-                <div class="theme-switcher">
+                <button
+                    class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Mở menu"
+                >
+                    <i class="bi bi-list"></i>
+                </button>
 
-                    <label for="themeSelect" class="visually-hidden">
-                        Chọn giao diện &nbsp; &nbsp;
-                    </label>
+                <div class="nav-menu" id="navMenu">
 
-                    <select
-                        id="themeSelect"
-                        class="theme-select"
-                        aria-label="Chọn giao diện"
-                    >
-                        <option value="light">☀️ Sáng</option>
-                        <option value="dark">🌙 Tối</option>
-                        <option value="auto">🌓 Tự động</option>
-                    </select>
+                    <a class="nav-link" href="index.html">Trang chủ</a>
+                    <a class="nav-link" href="categories.html">Kho bài tập</a>
+                    <a class="nav-link" href="generator.html">Tạo phiếu</a>
+                    <a class="nav-link" href="faq.html">Hướng dẫn</a>
+                    <a class="nav-link" href="contact.html">Liên hệ</a>
+
+                    <a class="btn btn-primary nav-cta" href="generator.html">
+                        Bắt đầu ngay
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                    <div class="theme-switcher">
+                        <label for="themeSelect" class="visually-hidden">
+                            Chọn giao diện &nbsp; &nbsp;
+                        </label>
+
+                        <select
+                            id="themeSelect"
+                            class="theme-select"
+                            aria-label="Chọn giao diện"
+                        >
+                            <option value="light">☀️ Sáng</option>
+                            <option value="dark">🌙 Tối</option>
+                            <option value="auto">🌓 Tự động</option>
+                        </select>
+                    </div>
+
+                    <div class="language-switcher">
+                        <label for="languageSelect" class="visually-hidden">
+                            Chọn ngôn ngữ
+                        </label>
+
+                        <select
+                            id="languageSelect"
+                            class="form-select form-select-sm"
+                            aria-label="Chọn ngôn ngữ"
+                        >
+                            <option value="vi">🇻🇳 Tiếng Việt</option>
+                            <option value="en">🇬🇧 English</option>
+                        </select>
+                    </div>
 
                 </div>
-
-                <div class="language-switcher">
-
-                    <label for="languageSelect" class="visually-hidden">
-                        Chọn ngôn ngữ
-                    </label>
-
-                    <select
-                        id="languageSelect"
-                        class="form-select form-select-sm"
-                        aria-label="Chọn ngôn ngữ"
-                    >
-                        <option value="vi">🇻🇳 Tiếng Việt</option>
-                        <option value="en">🇬🇧 English</option>
-                    </select>
-
-                </div>
-
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <main class="inner-page">
 
@@ -104,7 +101,7 @@
                 </span>
 
                 <h1>
-                    Bắt đầu với <span>EduSheet</span>
+                    Bắt đầu với <span>EduKho</span>
                 </h1>
 
                 <p>
@@ -207,12 +204,12 @@
 
     </main>
 
-   <footer class="footer">
+    <footer class="footer">
         <div class="container footer-inner">
 
             <a class="brand footer-brand" href="index.html">
                 <img src="images/logo-nhom7.png" alt="EduSheet Logo" class="brand-logo">
-                EduSheet
+                Edu<span class="brand-accent">Sheet</span>
             </a>
 
             <p>
@@ -237,5 +234,6 @@
     <script src="js/data.js"></script>
     <script src="js/main.js"></script>
     <script src="js/i18n.js"></script>
+
 </body>
 </html>
