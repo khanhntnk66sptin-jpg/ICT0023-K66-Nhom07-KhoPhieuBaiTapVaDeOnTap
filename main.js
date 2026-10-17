@@ -144,7 +144,6 @@ document.addEventListener("DOMContentLoaded", function () {
             handleSystemThemeChange
         );
     } else {
-        // Hỗ trợ một số trình duyệt cũ
         systemTheme.addListener(handleSystemThemeChange);
     }
 });
