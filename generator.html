@@ -19,7 +19,7 @@
 
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Tạo phiếu bài tập | EduKho</title>
+    <title>Hướng dẫn | EduKho</title>
 </head>
 
 <body>
@@ -90,128 +90,115 @@
             </div>
         </nav>
     </header>
+
     <main class="inner-page">
 
         <section class="page-hero">
-            <div class="container hero-flex">
+            <div class="container">
 
-                <div class="hero-text">
-                    <span class="section-kicker">
-                        CÔNG CỤ GIÁO VIÊN
-                    </span>
+                <span class="section-kicker">
+                    HƯỚNG DẪN SỬ DỤNG
+                </span>
 
-                    <h1>
-                        Tạo phiếu <span>bài tập</span>
-                    </h1>
+                <h1>
+                    Bắt đầu với <span>EduKho</span>
+                </h1>
 
-                    <p>
-                        Chọn tiêu chí, tạo phiếu ngẫu nhiên, xem trước và in khi
-                        đã sẵn sàng.
-                    </p>
-                </div>
-                <img src="images/anhmeo.jpg" alt="Hình con mèo" class="hero-img">
+                <p>
+                    Một vài bước đơn giản để sử dụng kho câu hỏi và tạo phiếu
+                    bài tập.
+                </p>
+
             </div>
         </section>
 
-        <section class="container page-content generator-layout">
+        <section class="container page-content faq-layout">
 
-            <form id="generatorForm" class="form-card">
+            <article class="faq-item">
 
-                <div class="card-heading">
+                <span class="faq-number">01</span>
 
-                    <span class="heading-icon">
-                        <i class="bi bi-sliders"></i>
-                    </span>
-
-                    <div>
-                        <h2>Thiết lập phiếu</h2>
-                        <p>Điều chỉnh theo nhu cầu của bạn.</p>
-                    </div>
-
-                </div>
-
-                <div class="field">
-                    <label for="subject">Môn học</label>
-
-                    <select id="subject" required>
-                        <option value="">-- Chọn môn học --</option>
-                        <option>Tin học</option>
-                        <option>Toán học</option>
-                        <option>Ngữ văn</option>
-                        <option>Tiếng Anh</option>
-                    </select>
-                </div>
-
-                <div class="field">
-                    <label for="grade">Khối lớp</label>
-
-                    <select id="grade" required>
-                        <option value="">-- Chọn khối lớp --</option>
-                        <option value="10">Lớp 10</option>
-                        <option value="11">Lớp 11</option>
-                        <option value="12">Lớp 12</option>
-                    </select>
-                </div>
-
-                <div class="field">
-                    <label for="topic">Chủ đề</label>
-
-                    <select id="topic">
-                        <option value="">Tất cả chủ đề</option>
-                    </select>
-                </div>
-
-                <div class="field">
-                    <label for="questionCount">Số câu hỏi</label>
-
-                    <select id="questionCount">
-                        <option value="5">5 câu</option>
-                        <option value="10" selected>10 câu</option>
-                        <option value="15">15 câu</option>
-                        <option value="20">20 câu</option>
-                    </select>
-                </div>
-
-                <label class="check-field">
-                    <input type="checkbox" id="showAnswers" checked>
-                    <span>Hiển thị đáp án trong bản xem trước</span>
-                </label>
-
-                <button
-                    class="btn btn-primary btn-large full-width"
-                    type="submit"
-                >
-                    <i class="bi bi-magic"></i>
-                    Tạo phiếu ngẫu nhiên
-                </button>
-
-                <p class="form-hint">
-                    <i class="bi bi-info-circle"></i>
-                    Dữ liệu câu hỏi hiện là dữ liệu mẫu.
-                </p>
-
-            </form>
-
-            <section class="preview-card" id="printableArea">
-
-                <div class="preview-empty" id="previewEmpty">
-
-                    <div class="empty-icon">
-                        <i class="bi bi-file-earmark-text"></i>
-                    </div>
-
-                    <h2>Phiếu bài tập sẽ xuất hiện ở đây</h2>
+                <div>
+                    <h2>Làm thế nào để tìm câu hỏi?</h2>
 
                     <p>
-                        Chọn môn học, lớp và nhấn “Tạo phiếu ngẫu nhiên”
-                        để bắt đầu.
+                        Mở mục Kho bài tập, nhập từ khóa hoặc chọn môn học và
+                        khối lớp để lọc danh sách câu hỏi mẫu.
                     </p>
-
                 </div>
 
-                <div id="worksheetOutput"></div>
+            </article>
 
-            </section>
+            <article class="faq-item">
+
+                <span class="faq-number">02</span>
+
+                <div>
+                    <h2>Làm thế nào để tạo phiếu?</h2>
+
+                    <p>
+                        Vào Tạo phiếu, chọn môn học, khối lớp, chủ đề và số
+                        câu hỏi. Nhấn nút tạo phiếu để xem kết quả.
+                    </p>
+                </div>
+
+            </article>
+
+            <article class="faq-item">
+
+                <span class="faq-number">03</span>
+
+                <div>
+                    <h2>Có thể in phiếu bài tập không?</h2>
+
+                    <p>
+                        Có. Sau khi tạo phiếu, nhấn In phiếu. Trong hộp thoại
+                        in của trình duyệt, bạn có thể chọn máy in hoặc lưu
+                        thành PDF.
+                    </p>
+                </div>
+
+            </article>
+
+            <article class="faq-item">
+
+                <span class="faq-number">04</span>
+
+                <div>
+                    <h2>Dữ liệu câu hỏi có phải đề chính thức không?</h2>
+
+                    <p>
+                        Các câu hỏi đang có là dữ liệu minh họa. Giáo viên
+                        cần kiểm tra và đối chiếu chương trình trước khi
+                        sử dụng thực tế.
+                    </p>
+                </div>
+
+            </article>
+
+            <div class="notice-box">
+
+                <i class="bi bi-info-circle"></i>
+
+                <p>
+                    <strong>Lưu ý:</strong>
+                    Đây là website mẫu chạy phía trình duyệt. Biểu mẫu liên
+                    hệ chưa gửi dữ liệu đến máy chủ.
+                </p>
+
+            </div>
+
+            <div class="center-action">
+
+                <a
+                    href="generator.html"
+                    class="btn btn-primary btn-large"
+                >
+                    Thử tạo phiếu
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+
+            </div>
 
         </section>
 
