@@ -118,8 +118,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         themeSelect.value = theme;
     }
-
-    // Áp dụng chủ đề đã lưu
     applyTheme(initialTheme);
 
     // Lưu lựa chọn và đổi giao diện ngay khi chọn
