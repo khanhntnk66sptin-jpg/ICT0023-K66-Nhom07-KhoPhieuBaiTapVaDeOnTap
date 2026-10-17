@@ -2205,3 +2205,22 @@ html[data-theme="dark"] .check-circle {
     width: 36px;
     height: 36px;
 }
+.page-hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.page-hero-text {
+    flex: 1;
+    min-width: 280px;
+}
+
+.page-hero-image img {
+    max-width: 100%;
+    max-height: 220px;
+    height: auto;
+    object-fit: contain;
+}
