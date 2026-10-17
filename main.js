@@ -93,7 +93,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const savedTheme = localStorage.getItem("edukho-theme");
     const validThemes = ["light", "dark", "auto"];
 
-    // Mặc định là tự động nếu chưa có lựa chọn hợp lệ
     const initialTheme = validThemes.includes(savedTheme)
         ? savedTheme
         : "auto";
