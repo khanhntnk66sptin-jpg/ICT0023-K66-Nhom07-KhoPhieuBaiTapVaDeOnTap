@@ -125,8 +125,6 @@ document.addEventListener("DOMContentLoaded", function () {
         localStorage.setItem("edukho-theme", selectedTheme);
         applyTheme(selectedTheme);
     });
-
-    // Theo dõi thay đổi chế độ sáng/tối của thiết bị
     const systemTheme = window.matchMedia(
         "(prefers-color-scheme: dark)"
     );
