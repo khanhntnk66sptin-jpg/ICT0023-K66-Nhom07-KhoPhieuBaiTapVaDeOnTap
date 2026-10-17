@@ -7,15 +7,10 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet"
-    >
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
-    <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-        rel="stylesheet"
-    >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -24,7 +19,7 @@
 
 <body>
 
-  <header class="site-header">
+    <header class="site-header">
         <nav class="navbar">
             <div class="container nav-inner">
 
@@ -33,11 +28,7 @@
                     EduSheet
                 </a>
 
-                <button
-                    class="menu-toggle"
-                    id="menuToggle"
-                    aria-label="Mở menu"
-                >
+                <button class="menu-toggle" id="menuToggle" aria-label="Mở menu">
                     <i class="bi bi-list"></i>
                 </button>
 
@@ -59,11 +50,7 @@
                             Chọn giao diện &nbsp; &nbsp;
                         </label>
 
-                        <select
-                            id="themeSelect"
-                            class="theme-select"
-                            aria-label="Chọn giao diện"
-                        >
+                        <select id="themeSelect" class="theme-select" aria-label="Chọn giao diện">
                             <option value="light">☀️ Sáng</option>
                             <option value="dark">🌙 Tối</option>
                             <option value="auto">🌓 Tự động</option>
@@ -75,13 +62,9 @@
                             Chọn ngôn ngữ
                         </label>
 
-                        <select
-                            id="languageSelect"
-                            class="form-select form-select-sm"
-                            aria-label="Chọn ngôn ngữ"
-                        >
-                            <option value="vi"> Tiếng Việt</option>
-                            <option value="en"> English</option>
+                        <select id="languageSelect" class="form-select form-select-sm" aria-label="Chọn ngôn ngữ">
+                            <option value="vi">Tiếng Việt</option>
+                            <option value="en">English</option>
                         </select>
                     </div>
 
@@ -92,20 +75,25 @@
     <main class="inner-page">
 
         <section class="page-hero">
-            <div class="container">
+            <div class="container page-hero-inner">
+                <div class="page-hero-text">
 
-                <span class="section-kicker">
-                    KẾT NỐI VỚI EDUSHEET
-                </span>
+                    <span class="section-kicker">
+                        KẾT NỐI VỚI EDUSHEET
+                    </span>
 
-                <h1>
-                    Đóng góp &amp; <span>liên hệ</span>
-                </h1>
+                    <h1>
+                        Đóng góp &amp; <span>liên hệ</span>
+                    </h1>
 
-                <p>
-                    Gửi câu hỏi mẫu, góp ý nội dung hoặc chia sẻ đề xuất để
-                    website ngày càng hữu ích hơn.
-                </p>
+                    <p>
+                        Gửi câu hỏi mẫu, góp ý nội dung hoặc chia sẻ đề xuất để
+                        website ngày càng hữu ích hơn.
+                    </p>
+                </div>
+                <div class="page-hero-image">
+                    <img src="images/anh4.jpg" alt="ảnh 4">
+                </div>
 
             </div>
         </section>
@@ -124,7 +112,7 @@
 
                 <p class="muted">
                     Bạn có thể gửi ý kiến đóng góp hoặc đề xuất câu hỏi để
-                    tham khảo trong quá trình học tập và giảng dạy.
+                    tham khảo trong quá trình học tập và giảng dạy
                 </p>
 
                 <div class="contact-detail">
@@ -135,7 +123,7 @@
 
                     <div>
                         <b>Email</b>
-                        <p>edusheet@example.com</p>
+                        <p>xxx@gmail.com</p>
                     </div>
 
                 </div>
@@ -172,11 +160,7 @@
 
             </div>
 
-            <form
-                id="contactForm"
-                class="form-card contact-form"
-                novalidate
-            >
+            <form id="contactForm" class="form-card contact-form" novalidate>
 
                 <div class="card-heading">
 
@@ -195,11 +179,7 @@
 
                     <label for="name">Họ và tên *</label>
 
-                    <input
-                        id="name"
-                        type="text"
-                        placeholder="Nhập họ và tên của bạn"
-                    >
+                    <input id="name" type="text" placeholder="Nhập họ và tên của bạn">
 
                 </div>
 
@@ -207,11 +187,7 @@
 
                     <label for="email">Email *</label>
 
-                    <input
-                        id="email"
-                        type="email"
-                        placeholder="name@example.com"
-                    >
+                    <input id="email" type="email" placeholder="name@example.com">
 
                 </div>
 
@@ -234,25 +210,13 @@
 
                     <label for="message">Nội dung chi tiết *</label>
 
-                    <textarea
-                        id="message"
-                        rows="5"
-                        placeholder="Nhập nội dung bạn muốn gửi..."
-                    ></textarea>
+                    <textarea id="message" rows="5" placeholder="Nhập nội dung bạn muốn gửi..."></textarea>
 
                 </div>
 
-                <p
-                    id="formMessage"
-                    class="form-message"
-                    role="status"
-                    aria-live="polite"
-                ></p>
+                <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
 
-                <button
-                    type="submit"
-                    class="btn btn-primary btn-large full-width"
-                >
+                <button type="submit" class="btn btn-primary btn-large full-width">
                     Gửi thông tin
                     <i class="bi bi-arrow-right"></i>
                 </button>
@@ -281,17 +245,13 @@
             </p>
 
             <small>
-                © 2026 EduSheet - Kho phiếu bài tập và đề ôn tập - Nhóm 7
+                © 2026 EduSheet - Kho phiếu bài tập và đề thi ôn tập - Nhóm 7
             </small>
 
         </div>
     </footer>
 
-    <button
-        id="backToTop"
-        class="back-to-top"
-        aria-label="Lên đầu trang"
-    >
+    <button id="backToTop" class="back-to-top" aria-label="Lên đầu trang">
         <i class="bi bi-arrow-up"></i>
     </button>
 
@@ -300,4 +260,5 @@
     <script src="js/i18n.js"></script>
 
 </body>
+
 </html>
