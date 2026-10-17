@@ -88,7 +88,6 @@ function msg(el,text,ok){el.textContent=text;el.className="form-message "+(ok?"s
 document.addEventListener("DOMContentLoaded", function () {
     const themeSelect = document.getElementById("themeSelect");
 
-    // Nếu trang không có nút chọn chủ đề thì dừng
     if (!themeSelect) return;
 
     const savedTheme = localStorage.getItem("edukho-theme");
