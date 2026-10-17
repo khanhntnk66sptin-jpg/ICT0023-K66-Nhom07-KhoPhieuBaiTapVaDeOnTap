@@ -72,13 +72,13 @@ Cách xử lý: Nội dung, dữ liệu và chức năng được chọn lọc t
 
 URL: https://chatgpt.com/
 
-Tác giả: OpenAI.
+Tác giả: OpenAI
 
-Ngày sử dụng: Ghi ngày sử dụng thực tế.
+Ngày sử dụng: từ 14/10/2026 đến ngày 17/10/2026
 
-Prompt chính: Hỏi về khái niệm lập trình web, gợi ý chỉnh sửa mã nguồn và xử lý lỗi.
+Prompt chính: Hỏi về cấu trúc, cách sắp xếp bố cục của web, gợi ý chỉnh sửa mã nguồn và xử lý lỗi
 
-Phần tiếp nhận/loại bỏ: Chọn lọc các giải thích và gợi ý phù hợp; loại bỏ nội dung không phù hợp với yêu cầu dự án.
+Phần tiếp nhận/loại bỏ: Chọn lọc các giải thích và gợi ý phù hợp; loại bỏ nội dung không phù hợp với yêu cầu bài tập lớn.
 
 Cách kiểm chứng: Đối chiếu với kiến thức đã học và chạy thử các phần liên quan trên trình duyệt.
 
@@ -86,11 +86,11 @@ Cách kiểm chứng: Đối chiếu với kiến thức đã học và chạy t
 
 URL: https://gemini.google.com/
 
-Tác giả: Google.
+Tác giả: Google
 
-Ngày sử dụng: Ghi ngày sử dụng thực tế.
+Ngày sử dụng: từ 14/10/2026 đến ngày 17/10/2026
 
-Prompt chính: 
+Prompt chính: Hỏi về cấu trúc, cách sắp xếp bố cục của web, gợi ý chỉnh sửa mã nguồn và xử lý lỗi
 
 Phần tiếp nhận/loại bỏ: Tiếp nhận các gợi ý phù hợp với dự án; loại bỏ những nội dung không cần thiết hoặc chưa phù hợp.
 
