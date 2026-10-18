@@ -88,14 +88,14 @@ function msg(el, text, ok) { el.textContent = text; el.className = "form-message
 document.addEventListener("DOMContentLoaded", function () {
   const themeSelect = document.getElementById("themeSelect");
 
-  if (!themeSelect) return;
+    if (!themeSelect) return;
 
   const savedTheme = localStorage.getItem("edusheet-theme");
   const validThemes = ["light", "dark", "auto"];
 
-  const initialTheme = validThemes.includes(savedTheme)
-    ? savedTheme
-    : "auto";
+    const initialTheme = validThemes.includes(savedTheme)
+        ? savedTheme
+        : "auto";
 
   function applyTheme(theme) {
     const systemPrefersDark =
@@ -116,21 +116,18 @@ document.addEventListener("DOMContentLoaded", function () {
       actualTheme
     );
 
-    themeSelect.value = theme;
-  }
+        themeSelect.value = theme;
+    }
+    applyTheme(initialTheme);
+    themeSelect.addEventListener("change", function () {
+        const selectedTheme = themeSelect.value;
 
-  applyTheme(initialTheme);
-
-  themeSelect.addEventListener("change", function () {
-    const selectedTheme = themeSelect.value;
-
-    localStorage.setItem("edusheet-theme", selectedTheme);
-    applyTheme(selectedTheme);
-  });
-
-  const systemTheme = window.matchMedia(
-    "(prefers-color-scheme: dark)"
-  );
+        localStorage.setItem("edukho-theme", selectedTheme);
+        applyTheme(selectedTheme);
+    });
+    const systemTheme = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+    );
 
   function handleSystemThemeChange() {
     const currentTheme =
@@ -141,14 +138,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  if (systemTheme.addEventListener) {
-    systemTheme.addEventListener(
-      "change",
-      handleSystemThemeChange
-    );
-  } else {
-    systemTheme.addListener(handleSystemThemeChange);
-  }
+    if (systemTheme.addEventListener) {
+        systemTheme.addEventListener(
+            "change",
+            handleSystemThemeChange
+        );
+    } else {
+        systemTheme.addListener(handleSystemThemeChange);
+    }
 });
 
 const translations = {
