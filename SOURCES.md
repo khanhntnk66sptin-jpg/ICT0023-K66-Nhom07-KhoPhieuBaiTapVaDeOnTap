@@ -36,11 +36,13 @@ Cách kiểm thử: Chạy website trên trình duyệt; kiểm tra hiển thị
 
 3.1. Hình ảnh
 
-URL: https://i.pinimg.com/1200x/d1/11/ba/d111ba73542116f35f268de3cb136c07.jpg
+URL: https://i.pinimg.com/1200x/d1/11/ba/d111ba73542116f35f268de3cb136c07.jpg ; https://kdytqt.khanhhoa.gov.vn/1797-2/ ; https://www.edu-wire.com/services/ielts ; https://govi.vn/brainstorm-la-gi-cach-de-thuc-hien-brainstorming-hieu-qua/?srsltid=AU7gw4X4CydWmo-syKzsP0gGJFTJ43HFMLHk4mDTQNLmKnbkgwUtzrdq
 
-Nguồn: Pinterest (tải ảnh trực tiếp xuống và sử dụng)
+Nguồn: Pinterest, Edu Wire, govi.vn, khanhhoa.gov.vn (tải ảnh trực tiếp xuống và sử dụng)
 
-Ngày truy cập: 16/10/2026
+Ngày truy cập: 16/10/2026 
+
+Sử dụng Canva AI và CLaude.AI để ghép ảnh giao diện của web đã chụp trên laptop, điện thoại thành một
 
 Phần sử dụng: Hình ảnh minh họa cho giao diện website, nếu được sử dụng trong sản phẩm
 
