@@ -81,17 +81,3 @@ Prompt chính: Hỏi về cấu trúc, cách sắp xếp bố cục của web, g
 Phần tiếp nhận/loại bỏ: Chọn lọc các giải thích và gợi ý phù hợp; loại bỏ nội dung không phù hợp với yêu cầu bài tập lớn.
 
 Cách kiểm chứng: Đối chiếu với kiến thức đã học và chạy thử các phần liên quan trên trình duyệt.
-
-4.2. Gemini
-
-URL: https://gemini.google.com/
-
-Tác giả: Google
-
-Ngày sử dụng: từ 14/10/2026 đến ngày 17/10/2026
-
-Prompt chính: Hỏi về cấu trúc, cách sắp xếp bố cục của web, gợi ý chỉnh sửa mã nguồn và xử lý lỗi
-
-Phần tiếp nhận/loại bỏ: Tiếp nhận các gợi ý phù hợp với dự án; loại bỏ những nội dung không cần thiết hoặc chưa phù hợp.
-
-Cách kiểm chứng: Đối chiếu câu trả lời với yêu cầu dự án và kiểm tra lại nội dung được áp dụng.
